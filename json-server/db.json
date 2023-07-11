@@ -145,7 +145,7 @@
       "lastname": "Osipova",
       "age": 46,
       "currency": "RUB",
-      "country": "Belarus",
+      "country": "Russia",
       "city": "Minsk",
       "username": "admin",
       "avatar": "https://www.theartnewspaper.ru/media/original_images/ed73de01-671f-4201-9b4a-4b1700d7840e.jpg"
@@ -158,7 +158,7 @@
       "currency": "USD",
       "country": "Armenia",
       "city": "Erevan",
-      "username": "admin213",
+      "username": "user",
       "avatar": "https://plusworld.ru/upload/iblock/8c2/ei50hip33yphk7rd3n0ntrhr4vgxyc1u.png"
     }
   ]
