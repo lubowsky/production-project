@@ -19,6 +19,7 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
+      "userId": "1",
       "type": [
         "IT"
       ],
@@ -106,20 +107,50 @@
     {
       "articleId": "1",
       "userId": "1",
-      "text": "dfadfadf df adf asdf adf adf",
-      "id": "URZ9lPf"
+      "text": "123",
+      "id": "4Cljjzl"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "123asfasf",
+      "id": "AEM4Dvc"
     },
     {
       "articleId": "1",
       "userId": "2",
-      "text": "test comment",
-      "id": "FD6lle8"
+      "text": "123asfasf",
+      "id": "IFEOWl0"
     },
     {
       "articleId": "1",
       "userId": "2",
-      "text": "bdghgh dgh gh dgh dgh dgh",
-      "id": "wLbxZl0"
+      "text": "привет мир",
+      "id": "dBacYRZ"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "хехехехе",
+      "id": "rBX_C-e"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "фыафыа",
+      "id": "5k0ApX-"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "sdfsdfsd",
+      "id": "w-HDIRq"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "asdasdasd",
+      "id": "MVvGQoZ"
     }
   ],
   "users": [
@@ -128,38 +159,38 @@
       "username": "admin",
       "password": "123",
       "role": "ADMIN",
-      "avatar": "https://w7.pngwing.com/pngs/93/587/png-transparent-computer-icons-computer-security-hacker-hacker-computer-logo-fictional-character-thumbnail.png"
+      "avatar": "https://avatars.mds.yandex.net/get-zen_doc/3413519/pub_5ff887b2fe4e686f6ae6ba3f_5ff887d7f906b16872a69755/scale_1200"
     },
     {
       "id": "2",
       "username": "user",
       "password": "123",
       "role": "USER",
-      "avatar": "https://w7.pngwing.com/pngs/93/587/png-transparent-computer-icons-computer-security-hacker-hacker-computer-logo-fictional-character-thumbnail.png"
+      "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
     }
   ],
   "profile": [
     {
       "id": "1",
-      "first": "Viktoria",
-      "lastname": "Osipova",
-      "age": 46,
+      "first": "jgh",
+      "lastname": "asf",
+      "age": 465,
       "currency": "RUB",
-      "country": "Russia",
-      "city": "Minsk",
-      "username": "admin",
-      "avatar": "https://www.theartnewspaper.ru/media/original_images/ed73de01-671f-4201-9b4a-4b1700d7840e.jpg"
+      "country": "Belarus",
+      "city": "Moscow",
+      "username": "admin213",
+      "avatar": "https://avatars.mds.yandex.net/get-zen_doc/3413519/pub_5ff887b2fe4e686f6ae6ba3f_5ff887d7f906b16872a69755/scale_1200"
     },
     {
       "id": "2",
-      "first": "Hacker",
+      "first": "ulbi tv",
       "lastname": "asf",
-      "age": 46,
-      "currency": "USD",
-      "country": "Armenia",
-      "city": "Erevan",
-      "username": "user",
-      "avatar": "https://plusworld.ru/upload/iblock/8c2/ei50hip33yphk7rd3n0ntrhr4vgxyc1u.png"
+      "age": 465,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "ulbi tv",
+      "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
     }
   ]
 }
