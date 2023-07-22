@@ -18,15 +18,13 @@ Normal.args = {
     comments: [
         {
             id: '1',
-            text: 'lkj;lkj',
+            text: 'hello world',
             user: { id: '1', username: 'Vasya' },
-
         },
         {
             id: '2',
-            text: 'lkj;lkj',
-            user: { id: '2', username: 'Petya' },
-
+            text: 'Comment 2',
+            user: { id: '1', username: 'Petya' },
         },
     ],
 };

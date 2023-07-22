@@ -1,7 +1,5 @@
-import { HTMLAttributes, ReactNode, memo } from 'react';
-
 import { classNames } from 'shared/lib/classNames/classNames';
-
+import { HTMLAttributes, memo, ReactNode } from 'react';
 import cls from './Card.module.scss';
 
 interface CardProps extends HTMLAttributes<HTMLDivElement> {
@@ -15,7 +13,7 @@ export const Card = memo((props: CardProps) => {
     return (
         <div
             className={classNames(cls.Card, {}, [className])}
-            {...props}
+            {...otherProps}
         >
             {children}
         </div>
