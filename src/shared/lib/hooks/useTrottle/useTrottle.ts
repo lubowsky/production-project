@@ -11,6 +11,6 @@ export function useTrottle(callback: (...args: any[]) => void, delay: number) {
             setTimeout(() => {
                 trottleRef.current = false;
             }, delay);
-        };
+        }
     }, [callback, delay]);
 }
