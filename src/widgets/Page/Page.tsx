@@ -1,15 +1,15 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import {
-    memo, MutableRefObject, ReactNode, useRef, UIEvent,
+    memo, MutableRefObject, ReactNode, UIEvent, useRef,
 } from 'react';
 import { useInfiniteScroll } from 'shared/lib/hooks/useInfiniteScroll/useInfiniteScroll';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
-import { UIActions, getUIScrollByPath } from 'features/UI';
+import { getUIScrollByPath, uiActions } from 'features/UI';
 import { useLocation } from 'react-router-dom';
 import { useInitialEffect } from 'shared/lib/hooks/useInitialEffect/useInitialEffect';
 import { useSelector } from 'react-redux';
 import { StateSchema } from 'app/providers/StoreProvider';
-import { useTrottle } from 'shared/lib/hooks/useTrottle/useTrottle';
+import { useThrottle } from 'shared/lib/hooks/useThrottle/useThrottle';
 import cls from './Page.module.scss';
 
 interface PageProps {
@@ -38,8 +38,8 @@ export const Page = memo((props: PageProps) => {
         wrapperRef.current.scrollTop = scrollPosition;
     });
 
-    const onScroll = useTrottle((e: UIEvent<HTMLDivElement>) => {
-        dispatch(UIActions.setScrollPosition({
+    const onScroll = useThrottle((e: UIEvent<HTMLDivElement>) => {
+        dispatch(uiActions.setScrollPosition({
             position: e.currentTarget.scrollTop,
             path: pathname,
         }));
@@ -52,7 +52,7 @@ export const Page = memo((props: PageProps) => {
             onScroll={onScroll}
         >
             {children}
-            <div ref={triggerRef} />
+            {onScrollEnd ? <div className={cls.trigger} ref={triggerRef} /> : null}
         </section>
     );
 });
