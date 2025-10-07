@@ -1,10 +1,17 @@
 const fs = require('fs');
 const jsonServer = require('json-server');
 const path = require('path');
+const cors = require('cors');
 
 const server = jsonServer.create();
 
 const router = jsonServer.router(path.resolve(__dirname, 'db.json'));
+
+server.use(cors({
+    origin: 'https://incredible-syrniki-cb27a0.netlify.app',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 server.use(jsonServer.defaults({}));
 server.use(jsonServer.bodyParser);
